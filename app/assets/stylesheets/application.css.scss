@@ -64,7 +64,17 @@
  }
 }
 
-/*
+.navbar-default .navbar-toggle .icon-bar {
+ background-color: white;
+}
+
+.navbar-default .navbar-toggle {
+ border:2px solid white;
+ &:hover, &:focus {
+  background-color: #c12926;
+ }
+}
+/* non-sass
 .navbar-default .navbar-nav > li > a:hover {
  color:#c12926;
  opacity:0.75;
