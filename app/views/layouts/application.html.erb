@@ -26,13 +26,17 @@
         </div>
         <div class="collapse navbar-collapse" id="main-nav-collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li><%= link_to about_path do %>
+            <li>
+              <%= link_to about_path do %>
               <i class="fa fa-question-circle-o"></i>
               About
-            <% end %>
-            <li><%= link_to new_contact_path do %>
-            Contact
-            <% end %>
+              <% end %>
+            </li>
+            <li>
+              <%= link_to new_contact_path do %>
+              <i class= "fa fa-mail-forward"></i>
+              Contact
+              <% end %>
             </li>
           </ul>
           
